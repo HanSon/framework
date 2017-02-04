@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efca1a8a-9243-48ff-82e2-f47e18144f5c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/framework.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Access/AuthorizationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Access/Gate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Access/HandlesAuthorization.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Access/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/AuthManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/AuthServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Authenticatable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/AuthenticationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/ClearResetsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/MakeAuthCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/routes.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/views/auth/login.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/views/auth/passwords/email.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/views/auth/passwords/reset.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/views/auth/register.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/views/home.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Console/stubs/make/views/layouts/app.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/CreatesUserProviders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/DatabaseUserProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/EloquentUserProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Events/Attempting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Events/Authenticated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Events/Failed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Events/Lockout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Events/Login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Events/Logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Events/Registered.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/GenericUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/GuardHelpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Middleware/Authenticate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Middleware/Authorize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Notifications/ResetPassword.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Passwords/CanResetPassword.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Passwords/DatabaseTokenRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Passwords/PasswordBroker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Passwords/PasswordBrokerManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Passwords/PasswordResetServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/Passwords/TokenRepositoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/RequestGuard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/SessionGuard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/TokenGuard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Auth/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/BroadcastController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/BroadcastEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/BroadcastException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/BroadcastManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/BroadcastServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/Broadcasters/LogBroadcaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/Broadcasters/NullBroadcaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/Channel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/InteractsWithSockets.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/PendingBroadcast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/PresenceChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/PrivateChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Broadcasting/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Bus/BusServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Bus/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Bus/Queueable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Bus/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/ApcStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/ApcWrapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/ArrayStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/CacheManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/CacheServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Console/CacheTableCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Console/ClearCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Console/stubs/cache.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/DatabaseStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Events/CacheHit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Events/CacheMissed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Events/KeyForgotten.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Events/KeyWritten.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/FileStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/MemcachedConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/MemcachedStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/NullStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/RateLimiter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/RedisStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/RedisTaggedCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/Repository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/RetrievesMultipleKeys.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/TagSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/TaggableStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/TaggedCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cache/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Config/Repository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Config/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/AppNamespaceDetectorTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Command.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/ConfirmableTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Events/ArtisanStarting.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/GeneratorCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/OutputStyle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Parser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/ScheduleServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Scheduling/CallbackEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Scheduling/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Scheduling/Schedule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/Scheduling/ScheduleRunCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Console/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Container/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Container/ContextualBindingBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Container/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/Access/Authorizable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/Access/Gate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/Authenticatable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/CanResetPassword.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/Guard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/PasswordBroker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/PasswordBrokerFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/StatefulGuard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/SupportsBasicAuth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Auth/UserProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Broadcasting/Broadcaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Broadcasting/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Broadcasting/ShouldBroadcast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Broadcasting/ShouldBroadcastNow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Bus/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Bus/QueueingDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Cache/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Cache/Repository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Cache/Store.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Config/Repository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Console/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Container/BindingResolutionException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Container/Container.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Container/ContextualBindingBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Cookie/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Cookie/QueueingFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Database/ModelIdentifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Debug/ExceptionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Encryption/DecryptException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Encryption/EncryptException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Encryption/Encrypter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Events/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Filesystem/Cloud.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Filesystem/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Filesystem/FileNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Filesystem/Filesystem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Foundation/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Hashing/Hasher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Logging/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Mail/MailQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Mail/Mailable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Mail/Mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Notifications/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Notifications/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Pagination/Paginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Pipeline/Hub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Pipeline/Pipeline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/EntityNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/EntityResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/Monitor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/Queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/QueueableCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/QueueableEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Queue/ShouldQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Redis/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Routing/Registrar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Routing/ResponseFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Routing/UrlGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Routing/UrlRoutable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Support/Arrayable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Support/Htmlable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Support/Jsonable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Support/MessageBag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Support/MessageProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Support/Renderable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Validation/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Validation/ValidatesWhenResolved.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/Validation/Validator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/View/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/View/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Contracts/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cookie/CookieJar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cookie/CookieServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cookie/Middleware/EncryptCookies.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Cookie/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Capsule/Manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/ConnectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/ConnectionResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/ConnectionResolverInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connectors/ConnectionFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connectors/Connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connectors/ConnectorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connectors/MySqlConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connectors/PostgresConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connectors/SQLiteConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Connectors/SqlServerConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/BaseCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/InstallCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/MigrateCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/MigrateMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/RefreshCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/ResetCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/RollbackCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Migrations/StatusCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Seeds/SeedCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Seeds/SeederMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Console/Seeds/stubs/seeder.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/DatabaseManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/DatabaseServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/DetectsDeadlocks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/DetectsLostConnections.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/FactoryBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/MassAssignmentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/ModelNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/QueueEntityResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/RelationNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/HasMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/HasManyThrough.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/HasOne.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/MorphMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/MorphOne.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/MorphOneOrMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/MorphPivot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/MorphTo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/MorphToMany.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/Pivot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Relations/Relation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/Scope.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/SoftDeletes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Eloquent/SoftDeletingScope.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Events/ConnectionEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Events/QueryExecuted.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Events/TransactionBeginning.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Events/TransactionCommitted.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Events/TransactionRolledBack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Grammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/MigrationServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/Migration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/MigrationCreator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/MigrationRepositoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/Migrator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/stubs/blank.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/stubs/create.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Migrations/stubs/update.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/MySqlConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/PostgresConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Expression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Grammars/Grammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Grammars/MySqlGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Grammars/PostgresGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Grammars/SQLiteGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Grammars/SqlServerGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/JoinClause.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/JsonExpression.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Processors/MySqlProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Processors/PostgresProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Processors/Processor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Processors/SQLiteProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Query/Processors/SqlServerProcessor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/QueryException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/SQLiteConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/Blueprint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/Builder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/Grammars/Grammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/Grammars/PostgresGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/MySqlBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Schema/PostgresBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/SeedServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/Seeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/SqlServerConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Database/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Encryption/Encrypter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Encryption/EncryptionServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Encryption/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Events/CallQueuedHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Events/Dispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Events/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Events/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Filesystem/ClassFinder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Filesystem/Filesystem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Filesystem/FilesystemAdapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Filesystem/FilesystemManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Filesystem/FilesystemServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Filesystem/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/AliasLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/Access/Authorizable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/RedirectsUsers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/ResetsPasswords.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/ThrottlesLogins.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Auth/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/BootProviders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/ConfigureLogging.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/DetectEnvironment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bootstrap/SetRequestForConsole.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Bus/DispatchesJobs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/ComposerScripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/AppNameCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ClearCompiledCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ClosureCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ConfigCacheCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ConfigClearCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ConsoleMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/DownCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/EnvironmentCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/EventGenerateCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/EventMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/IlluminateCaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/JobMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/KeyGenerateCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ListenerMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/MailMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ModelMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/NotificationMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/Optimize/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/OptimizeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/PolicyMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ProviderMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/QueuedJob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/RequestMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/RouteCacheCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/RouteClearCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/RouteListCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ServeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/StorageLinkCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/TestMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/TinkerCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/UpCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/VendorPublishCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/ViewClearCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/console.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/event-handler-queued.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/event-handler.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/event.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/job-queued.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/job.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/listener-queued.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/listener.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/mail.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/model.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/notification.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/policy.plain.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/policy.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/provider.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/request.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/routes.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Console/stubs/test.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/EnvironmentDetector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Exceptions/Handler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Http/Exceptions/MaintenanceModeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Http/FormRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Http/Kernel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Http/Middleware/VerifyPostSize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Inspiring.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/ProviderRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Providers/ComposerServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Providers/ConsoleSupportServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Providers/FoundationServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Support/Providers/AuthServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Support/Providers/EventServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/ImpersonatesUsers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/InteractsWithAuthentication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/InteractsWithContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/InteractsWithPages.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/InteractsWithSession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Concerns/MocksApplicationServices.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/FormFieldConstraint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/HasElement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/HasInElement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/HasLink.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/HasSource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/HasText.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/HasValue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/IsChecked.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/IsSelected.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/PageConstraint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/Constraints/ReversePageConstraint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/DatabaseMigrations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/DatabaseTransactions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/HttpException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/WithoutEvents.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Testing/WithoutMiddleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/Validation/ValidatesRequests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Foundation/helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Hashing/BcryptHasher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Hashing/HashServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Hashing/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/Exception/HttpResponseException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/Exception/PostTooLargeException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/FileHelpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/JsonResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/Middleware/CheckResponseForModifications.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/Middleware/FrameGuard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/RedirectResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/ResponseTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/UploadedFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Http/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Log/Writer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Log/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Events/MessageSending.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Jobs/HandleQueuedMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/MailServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Mailable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/MailableMailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/SendQueuedMailable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Transport/ArrayTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Transport/LogTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Transport/MailgunTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Transport/MandrillTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Transport/SesTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Transport/SparkPostTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/Transport/Transport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/TransportManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Mail/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Action.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/ChannelManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Channels/BroadcastChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Channels/DatabaseChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Channels/MailChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Channels/NexmoSmsChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Channels/SlackWebhookChannel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Console/NotificationTableCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Console/stubs/notifications.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/DatabaseNotification.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/DatabaseNotificationCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Events/BroadcastNotificationCreated.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Events/NotificationFailed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Events/NotificationSending.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Events/NotificationSent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/HasDatabaseNotifications.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/BroadcastMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/DatabaseMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/MailMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/NexmoMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/SimpleMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/SlackAttachment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/SlackAttachmentField.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Messages/SlackMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Notifiable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/Notification.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/NotificationServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/RoutesNotifications.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/SendQueuedNotifications.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/resources/views/email-plain.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Notifications/resources/views/email.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/AbstractPaginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/LengthAwarePaginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/PaginationServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/Paginator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/UrlWindow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/resources/views/bootstrap-4.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/resources/views/default.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/resources/views/simple-bootstrap-4.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pagination/resources/views/simple-default.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pipeline/Hub.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pipeline/Pipeline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pipeline/PipelineServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Pipeline/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/BeanstalkdQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/CallQueuedHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Capsule/Manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Connectors/BeanstalkdConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Connectors/ConnectorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Connectors/DatabaseConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Connectors/NullConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Connectors/RedisConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Connectors/SqsConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Connectors/SyncConnector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/FailedTableCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/FlushFailedCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/ForgetFailedCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/ListFailedCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/ListenCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/RestartCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/RetryCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/TableCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/WorkCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/stubs/failed_jobs.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Console/stubs/jobs.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/ConsoleServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/DatabaseQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Events/JobExceptionOccurred.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Events/JobFailed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Events/JobProcessed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Events/JobProcessing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Events/WorkerStopping.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Failed/FailedJobProviderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Failed/NullFailedJobProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/InteractsWithQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Jobs/BeanstalkdJob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Jobs/DatabaseJob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Jobs/Job.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Jobs/RedisJob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Jobs/SqsJob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Jobs/SyncJob.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Listener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/LuaScripts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/ManuallyFailedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/MaxAttemptsExceededException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/NullQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/QueueManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/QueueServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/RedisQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/SerializesAndRestoresModelIdentifiers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/SerializesModels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/SqsQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/SyncQueue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/TimeoutException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/Worker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/WorkerOptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Queue/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Redis/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Redis/RedisServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Redis/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Console/ControllerMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Console/MiddlewareMakeCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Console/stubs/controller.model.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Console/stubs/controller.plain.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Console/stubs/controller.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Console/stubs/middleware.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/ControllerDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/ControllerMiddlewareOptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Events/RouteMatched.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Exceptions/UrlGenerationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Matching/HostValidator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Matching/MethodValidator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Matching/SchemeValidator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Matching/UriValidator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Matching/ValidatorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Middleware/SubstituteBindings.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Middleware/ThrottleRequests.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Pipeline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Redirector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/ResourceRegistrar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/ResponseFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/RouteCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/RouteDependencyResolverTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/Router.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/RoutingServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/SortedMiddleware.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/UrlGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Routing/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/CacheBasedSessionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/Console/SessionTableCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/Console/stubs/database.stub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/CookieSessionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/DatabaseSessionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/EncryptedStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/ExistenceAwareInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/FileSessionHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/Middleware/AuthenticateSession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/Middleware/StartSession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/SessionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/SessionManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/SessionServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/Store.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/TokenMismatchException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Session/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/AggregateServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Arr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/ClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Composer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Debug/Dumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Debug/HtmlDumper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/App.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Artisan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Broadcast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Bus.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Cache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Cookie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Crypt.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/DB.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Facade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Gate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Hash.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Input.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Log.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Mail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Notification.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Password.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Queue.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Redirect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Redis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Request.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Route.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Schema.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Storage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/URL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/Validator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Facades/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Fluent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/HtmlString.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Manager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/MessageBag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/NamespacedItemResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Pluralizer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/ServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Str.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Testing/Fakes/BusFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Testing/Fakes/EventFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Testing/Fakes/MailFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Testing/Fakes/MailableFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Testing/Fakes/NotificationFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Testing/Fakes/QueueFake.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Traits/CapsuleManagerTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/Traits/Macroable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/ViewErrorBag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Support/helpers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Translation/ArrayLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Translation/FileLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Translation/LoaderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Translation/TranslationServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Translation/Translator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Translation/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/DatabasePresenceVerifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/PresenceVerifierInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Rule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Rules/Dimensions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Rules/Exists.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Rules/In.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Rules/NotIn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Rules/Unique.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/UnauthorizedException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/ValidatesWhenResolvedTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/ValidationException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/ValidationServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/Validator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/Validation/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Compilers/BladeCompiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Compilers/Compiler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Compilers/CompilerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Engines/CompilerEngine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Engines/Engine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Engines/EngineInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Engines/EngineResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Engines/PhpEngine.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Factory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/FileViewFinder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/Middleware/ShareErrorsFromSession.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/View.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/ViewFinderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/ViewServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Illuminate/View/composer.json" />
+    </list>
+    <ignored path="framework.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="framework" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2205029">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Illuminate/Database/Connectors/ConnectionFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Illuminate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="ConnectionFa&#9;null&#9;null" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efca1a8a-9243-48ff-82e2-f47e18144f5c" name="Default" comment="" />
+      <created>1486220064105</created>
+      <option name="number" value="Default" />
+      <updated>1486220064105</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Illuminate/Database/Connectors/ConnectionFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Illuminate/Database/Connectors/ConnectionFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2205029">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
